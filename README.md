@@ -4,7 +4,7 @@ This repository contains the source files to create the website for the [Yukon U
 
 The repository also contains configuration files, e.g. `mkdocs.yml`, so it can be rendered by the [MkDocs](https://www.mkdocs.org/) static site generation program.
 
-You can view the generated site at: https://ttopper.github.io/CPSC129/
+You can view the generated site at: https://kechatfi.github.io/CPSC129/
 
 ## The course
 
