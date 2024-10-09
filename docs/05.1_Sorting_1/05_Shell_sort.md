@@ -57,7 +57,7 @@ changed code is,
             for i in range(start+step, len(lst), step):
                 tmp = lst[i]
                 j = i-step
-                while j >= step-1 and tmp < lst[j]:
+                while j >= start and tmp < lst[j]:
                     lst[j+step] = lst[j]
                     j = j-step
                 lst[j+step] = tmp
@@ -73,7 +73,7 @@ possible starting positions of the lists,
             for i in range(start+step, len(lst), step):
                 tmp = lst[i]
                 j = i-step
-                while j >= step-1 and tmp < lst[j]:
+                while j >= start and tmp < lst[j]:
                     lst[j+step] = lst[j]
                     j = j-step
                 lst[j+step] = tmp
@@ -91,7 +91,7 @@ sorted completely,
             for i in range(start+step, len(lst), step):
                 tmp = lst[i]
                 j = i-step
-                while j >= step-1 and tmp < lst[j]:
+                while j >= start and tmp < lst[j]:
                     lst[j+step] = lst[j]
                     j = j-step
                 lst[j+step] = tmp
@@ -119,7 +119,7 @@ def shell_sort(lst):
             for i in range(start+step, len(lst), step):
                 tmp = lst[i]
                 j = i-step
-                while j >= step-1 and tmp < lst[j]:
+                while j >= start and tmp < lst[j]:
                     lst[j+step] = lst[j]
                     j = j-step
                 lst[j+step] = tmp
